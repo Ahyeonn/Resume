@@ -1,0 +1,734 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.first-context {
+    height: 360px;
+}
+
+#name {
+    display: flex;
+    justify-content: center;
+    font-size: 55px;
+    border-bottom: solid;
+    border-width: 1.5px;
+    height: 3cm;
+    margin: auto;
+    padding-top: 80px;
+}
+
+#home3 {
+    padding-right: 15px;
+}
+
+#list {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
+
+#list ul {
+    display: flex;
+    width: 700px;
+    justify-content: space-evenly;
+    list-style: none;
+    padding-top: 10px;
+}
+
+.first-a {
+    color:rgb(58, 53, 53);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.again2 {
+    padding-top: 12px;
+}
+
+.second-context {
+    height: 690px;
+}
+
+#banner {
+    background-image: url('images/plants.webp');
+    min-height: 540px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info{
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 200px;
+    width: 900px;
+    opacity: 0.8;
+}
+
+.buttons {
+    margin-top: 30px;
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+    background-color: white;
+    border-width: 1px;
+    font-size: 20px;
+}
+
+#overall {
+    height: 950px;
+}
+
+#topic-1 {
+    background-color: blanchedalmond;
+    display: flex;
+    height: 800px;
+}
+#textbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(247, 247, 247);
+    width: 900px;
+    height: 500px;
+    margin: auto;
+}
+
+.about-me {
+    font-size: 50px;
+}
+
+#p-one {
+    width: 680px;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+}
+
+#overall2 {
+    height: 1250px;
+}
+
+#textbox2 {
+    display: flex;
+    background-color: white;
+    background-image: url('images/plants\ 26.jpeg');
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 1200px;
+}
+
+#liltext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 130px;
+    margin: auto;
+    background-color: white;
+    opacity: 0.8;
+}
+
+#exp {
+    margin: 0;
+}
+
+#roles {
+    font-size: 20px;
+    margin: 0;
+}
+
+#topic-2 {
+    background-color:rgb(255, 225, 222);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 800px;
+    width: 1200px;
+    margin: auto;
+}
+
+#paragraphs {
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:0.3em;
+    grid-template-areas: "a b c"
+                         "d e f"
+                         "g h i"
+                         "j k l";
+}
+
+#a {
+    grid-area: b;
+}
+
+#b {
+    grid-area: a;
+}
+
+#c {
+    grid-area: c;
+}
+
+#d {
+    grid-area: e;
+}
+
+#e {
+    grid-area: d;
+}
+
+#f {
+    grid-area: f;
+}
+
+#g {
+    grid-area: h;
+}
+
+#h {
+    grid-area: g;
+}
+
+#i {
+    grid-area: i;
+}
+
+#j {
+    grid-area: k;
+}
+
+#k {
+    grid-area: j;
+}
+
+#l {
+    grid-area: l;
+}
+
+.a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 18px;
+}
+
+.b {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    margin-right: 20px;
+}
+
+.c {
+    display: flex;
+    align-items: center;
+}
+
+#textbox3 {
+    display: flex;
+    background-image: url('images/plants24.jpeg');
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 1200px;
+}
+
+#liltext2 { 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 500px;
+        height: 160px;
+        margin: auto;
+        opacity: 0.8;
+        background-color: white;
+}
+
+#techskill{
+    margin: auto;
+}
+
+#topic-3 {
+    height: 600px;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+}
+
+#textbox4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: red; */
+    align-items: center;
+    height: 450px;
+    width: 1280px;
+}
+
+/* 150 */
+
+.outline {
+    display: flex;
+    border-style: solid;
+    border-color: rgb(255, 218, 174);
+    border-width: 5px;
+    border-radius: 35px;
+    height:380px;
+    width: 290px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background-color: blanchedalmond;
+}
+
+.lists {
+    height: 110px;
+    width: 240px;
+    border-style: solid;
+    border-color: rgb(254, 252, 252);
+    border-width: 5px;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 0;
+    justify-content: center;
+    background-color: white;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.pic {
+    margin-bottom: 30px;
+}
+
+#textbox5 {
+    display: flex;
+    background-image: url('images/plants24.jpeg');
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 1200px;
+}
+
+#liltext3 { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 700px;
+    height: 180px;
+    margin: auto;
+    opacity: 0.8;
+    background-color: white;
+}
+
+#roles2 {
+    font-size: 30px;
+    margin: 0;
+}
+
+#textbox5 em{
+    font-size: 30px;
+    padding: 0 5px;
+    color: rgb(173, 28, 50);
+}
+#portfolio {
+    margin: 0;
+}
+
+#topic-4 {
+    height: 1500px;
+    width: 1400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1em;
+    justify-content: space-around;
+}
+
+.grouping2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: blanchedalmond;
+    border-radius: 20px;
+    border-width: 10px;
+    height: 650px;
+    width: 420px;
+    margin:auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-size: 30px;
+    width: 350px;
+    border-style: solid;
+    border-color: rgb(249, 247, 247);
+    border-radius: 20px;
+    text-align: center;
+    margin: 0;
+    background-color: white;
+}
+
+.coloring {
+    display: flex;
+    height: 310px;
+    width: 350px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.pic2 {
+    display: flex;
+    justify-content: center;
+}
+
+.paragraphs2 {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    width: 380px;
+    text-align: center;
+    background-color: white;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.grouping {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pic2{
+    margin: auto;
+}
+
+#colors1 {
+    background-color:rgb(247, 204, 175) ;
+}
+
+#colors2 {
+    background-color:rgb(246, 197, 190) ;
+}
+
+#colors3 {
+    background-color:rgb(247, 204, 175) ;
+}
+
+#colors4 {
+    background-color:rgb(246, 197, 190) ;
+}
+
+#colors5 {
+    background-color:rgb(247, 204, 175) ;
+}
+
+#colors6 {
+    background-color:rgb(246, 197, 190) ;
+}
+
+#overall1 {
+    height: 1500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#overall1 a{
+    color: black;
+    text-decoration: none;
+}
+
+#all-together {
+    height: 1650px;
+}
+
+#blank {
+    height: 550px;
+}
+
+#textbox6 {
+    display: flex;
+    background-image: url('images/plants29.jpeg');
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#textbox6 h2{
+    width: 1000px;
+    font-size: 25px;
+    text-align: center;
+    color: black;
+}
+
+#textbox6 h3{
+    color: black;
+}
+
+#liltext4 { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1100px;
+    height: 180px;
+    margin: auto;
+    opacity: 0.8;
+    background-color: white;
+}
+
+#topic-5 {
+    height: 800px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: olive;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    height: 180px;
+}
+
+.small-context h2 {
+    font-size: 40px;
+    text-align: center;
+    color: rgb(61, 62, 64);
+    margin: 0;
+}
+
+#contact p {
+    font-size: 15px;
+    text-align: center;
+    color: rgb(61, 62, 64);
+    line-height: 2px;
+}
+
+#information {
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+}
+
+#information p {
+    font-size: 15px;
+    margin: 0;
+    color: rgb(61, 62, 64);
+}
+
+#one-section1 textarea {
+    font-size: 15px;
+    padding: 12.5px 0;
+    width: 400px;
+    resize: none;
+}
+
+#one-section2 {
+    display: flex;
+    flex-direction: row;
+}
+
+#one-section2 textarea{
+    font-size: 15px;
+    width: 400px;
+    resize: none;
+}
+
+#mesage1 {
+    padding: 12.5px 0;
+}
+
+#message2 {
+    padding-top: 10px;
+}
+
+
+#one-section textarea{
+    width: 191px;
+    font-size: 15px;
+    padding: 12.5px 0;
+    resize: none;
+}
+
+#one-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 400px;
+}
+
+#whole{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#one-section1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.small-section {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 556px;
+}
+
+#small-section1 {
+    padding: 0 0 0 14px;
+}
+
+#again {
+    font-size: 27px;
+    font-weight: lighter;
+}
+
+#divider {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#last {
+    background-color: rgb(50, 51, 52);
+    color: white;
+    font-weight: lighter;
+    width: 130px;
+}
+
+#border {
+    display: flex;
+    height: 800px;
+}
+
+#final {
+    display: flex;
+    min-height: 600px;
+    width: 650px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#arrange {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 1300px;
+}
+
+#small-section3 {
+    padding-top: 2px;
+}
+
+#message1 {
+    padding: 12.5px 0;
+}
+
+#message2 {
+    padding-top: 15px;
+}
+
+#last-Part {
+    height: 1000px;
+    border-bottom: solid;
+    border-width: 1px;
+}
+
+#last3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#last2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#size {
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+}
+
+.list ul{
+    width: 350px;
+    height: 70px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin: 0;
+    padding-top: 30px;
+}
+
+.list li {
+    margin: 20px;
+}
+
+.list {
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+#home2 {
+    padding-top: 70px;
+}
+
+a{
+    transition: 800ms;
+}
+
+a:hover{
+    color:olive;
+}
+
+button:hover {
+    color: rgb(95, 100, 95);
+}
